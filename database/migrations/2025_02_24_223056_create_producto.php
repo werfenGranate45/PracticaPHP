@@ -14,8 +14,8 @@ return new class extends Migration
         Schema::create('producto', function (Blueprint $table) {
             $table->id();
             $table->string('nombre_producto',255);
-            $table->integer('precio');
-            $table->string('color',255);
+            $table->integer('precio')->default(1);
+            $table->string('color',255)->nullable();
             $table->timestamps();
         });
     }

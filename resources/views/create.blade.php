@@ -17,7 +17,7 @@
   <label for="floatingPassword">Genero</label>
 </div>
 <div class="mb-3">
-    <button class="btn btn-primary" type="submit" disabled>Submit form</button>
-  </div>
+  <a href="/store">Picale aqui para guardar</a>    
+</div>
 
 @endsection('Nav-Bar')

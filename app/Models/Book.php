@@ -32,6 +32,7 @@ class Book extends Model
      */
 
    protected $table = 'books';
+   protected $primaryKey = 'id';
 
    /**
     * Para apuntar a las columnas de la base de datos usamos un array??
